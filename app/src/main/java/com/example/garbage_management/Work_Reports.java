@@ -14,7 +14,7 @@ import com.example.garbage_management.Database.DBHandler;
 public class Work_Reports extends AppCompatActivity {
 
     EditText date,workreport1,workreport2,workreport3,workreport4;
-    Button btn_workreport;
+    Button btnnewadd,btnupdate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +26,18 @@ public class Work_Reports extends AppCompatActivity {
         workreport2 = findViewById(R.id.workreport2);
         workreport3 = findViewById(R.id.workreport3);
         workreport4 = findViewById(R.id.workreport4);
+        btnnewadd = findViewById(R.id.btnnewadd);
+        btnupdate = findViewById(R.id.btnupdate);
 
-        btn_workreport.setOnClickListener(new View.OnClickListener() {
+        btnupdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent b = new Intent(getApplicationContext(),Edit_Work_Report.class);
                 startActivity(b);
             }
         });
-        btn_workreport.setOnClickListener(new View.OnClickListener() {
+
+        btnnewadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 DBHandler dbHandler = new DBHandler(getApplicationContext());

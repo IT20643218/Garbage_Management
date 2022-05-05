@@ -30,4 +30,6 @@
     <string name="editworkreport">Edit Work Reports</string>
     <string name="search">Search</string>
     <string name="homelogin">Login</string>
+    <string name="btnnewadd">Add Work Report</string>
+    <string name="btnupdate">Update Work</string>
 </resources>

@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 public class Home extends AppCompatActivity {
     EditText name,password;
-    Button login,register;
+    Button login,homeregister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +20,12 @@ public class Home extends AppCompatActivity {
         name = findViewById(R.id.homename);
         password = findViewById(R.id.homepassword);
         login = findViewById(R.id.homelogin);
-        register = findViewById(R.id.homeregister);
+        homeregister= findViewById(R.id.homeregister);
 
-        register.setOnClickListener(new View.OnClickListener() {
+        homeregister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(),W_Repo.class);
+                Intent i = new Intent(getApplicationContext(),Work_Reports.class);
                 startActivity(i);
             }
         });

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     android:orientation="vertical"
     tools:context=".Work_Reports">
 
@@ -12,7 +12,7 @@
         android:id="@+id/work_report"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:hint="@string/work_report"
         android:text="@string/work_report"
         android:textAlignment="center"
@@ -23,7 +23,7 @@
         android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/date"
         android:inputType="date"
@@ -33,7 +33,7 @@
         android:id="@+id/workreport1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/workreport1"
         android:inputType="textPersonName"
@@ -43,7 +43,7 @@
         android:id="@+id/workreport2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/workreport2"
         android:inputType="textPersonName"
@@ -53,7 +53,7 @@
         android:id="@+id/workreport3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/workreport3"
         android:inputType="textPersonName"
@@ -63,17 +63,26 @@
         android:id="@+id/workreport4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/workreport4"
         android:inputType="textPersonName"
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/btn_workreport"
+        android:id="@+id/btnnewadd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:hint="@string/btn_workreport"
         android:text="@string/btn_workreport" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/btnupdate"
+        android:minHeight="48dp"
+        android:text="@string/btnupdate" />
 </LinearLayout>

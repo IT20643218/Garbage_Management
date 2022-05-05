@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Garbage_Management">
         <activity
-            android:name=".Text"
-            android:exported="false" />
-        <activity
-            android:name=".W_Repo"
-            android:exported="false" />
-        <activity
             android:name=".Work_Reports"
             android:exported="true" />
         <activity
