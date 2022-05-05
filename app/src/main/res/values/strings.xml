@@ -28,4 +28,6 @@
     <string name="editbin">Update Work Reports</string>
     <string name="deletebin">Delete Work Reports</string>
     <string name="editworkreport">Edit Work Reports</string>
+    <string name="search">Search</string>
+    <string name="homelogin">Login</string>
 </resources>

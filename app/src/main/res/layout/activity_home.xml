@@ -29,7 +29,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/homename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -39,7 +39,7 @@
         android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/homepassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -49,18 +49,18 @@
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/login_B"
+        android:id="@+id/homelogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/login_B"
-        android:text="@string/login_B" />
+        android:hint="@string/homelogin"
+        android:text="@string/homelogin" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/homeregister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/login_B"
+        android:hint="@string/register"
         android:text="@string/register" />
 </LinearLayout>

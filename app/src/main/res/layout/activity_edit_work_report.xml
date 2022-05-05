@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
+    android:layout_margin="10dp"
     android:orientation="vertical"
     tools:context=".Edit_Work_Report">
 
@@ -12,18 +12,25 @@
         android:id="@+id/editworkreport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:hint="@string/editworkreport"
         android:text="@string/editworkreport"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search"
+        android:text="@string/search" />
+
     <EditText
         android:id="@+id/edit_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/edit_date"
         android:inputType="date"
@@ -33,7 +40,7 @@
         android:id="@+id/editNameone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/editNameone"
         android:inputType="textPersonName"
@@ -43,7 +50,7 @@
         android:id="@+id/editNametwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/editNametwo"
         android:inputType="textPersonName"
@@ -53,7 +60,7 @@
         android:id="@+id/editNametree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/editNametree"
         android:inputType="textPersonName"
@@ -63,7 +70,7 @@
         android:id="@+id/editNamefour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:ems="10"
         android:hint="@string/editNamefour"
         android:inputType="textPersonName"
@@ -73,7 +80,7 @@
         android:id="@+id/editbin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:hint="@string/editbin"
         android:text="@string/editbin" />
 
@@ -81,7 +88,8 @@
         android:id="@+id/deletebin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:hint="@string/deletebin"
         android:text="@string/deletebin" />
+
 </LinearLayout>
